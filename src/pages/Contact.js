@@ -38,20 +38,20 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>adresse rue agence</p>
-              <p>99999 Quelquepart</p>
+              <p>France</p>
+              <p>34990 Juvignac</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
               <h4>téléphone</h4>
-              <CopyToClipboard text="06000000" className="hover">
+              <CopyToClipboard text="0646175967" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Numéro copié !")}
                 >
-                  06 00 00 00
+                  06 46 17 59 67
                 </p>
               </CopyToClipboard>
             </div>
@@ -59,20 +59,23 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="testagency@gmail.fr" className="hover">
+              <CopyToClipboard
+                text="baudinopierreolivier@gmail.com"
+                className="hover"
+              >
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Mail copié !")}
                 >
-                  testagency@gmail.fr
+                  baudinopierreolivier@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>Credits : Test Piem - 2022</p>
+            <p>Credits : Pierre-Olivier B. - 2023</p>
           </div>
         </div>
         <Buttons left={"/project-4"} />
