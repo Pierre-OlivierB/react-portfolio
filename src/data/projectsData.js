@@ -31,8 +31,8 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
+    title: "API",
+    date: "Avril 2022",
     languages: ["Php", "Json"],
     infos:
       "Cette fois nous voilà devant une api créée from-scratch. Après `/API/` nous pouvons ajouter : `ingredients/cookies`, `content/muffin`, `recipes/`",
