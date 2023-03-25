@@ -30,7 +30,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Template",
+    title: "API MovieDb with React",
     date: "Janvier 2023",
     languages: ["React", "Json"],
     infos:
