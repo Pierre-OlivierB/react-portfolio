@@ -713,6 +713,7 @@ main {
   grid-template-columns: 33% 67%;
   position: relative;
   text-align: right;
+  top: 50px;
 }
 @media screen and (max-width: 810px) {
   .project .project-main {
