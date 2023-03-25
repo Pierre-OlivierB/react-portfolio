@@ -21,16 +21,25 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Template",
-    date: "Janvier 2023",
-    languages: ["Html", "Css", "Js"],
-    infos:
-      "Voici un template modifier de W3C. L'exercice permettant de monter qu'on se retrouve dans un code déjà écrit afin d'y apporter des modifications.",
-    img: "./assets/img/template_modif.png",
-    link: "https://baudino.needemand.com/ibm/test_template/index.html",
+    title: "Lecteur Audio",
+    date: "Février 2023",
+    languages: ["Js", "JSon", "SaSS"],
+    infos: "Voici la nouvelle version du lecteur 1an plus tard",
+    img: "./assets/img/gameboy_player.png",
+    link: "https://baudino.needemand.com/ibm/player-boy/index.html",
   },
   {
     id: 4,
+    title: "Template",
+    date: "Janvier 2023",
+    languages: ["React", "Json"],
+    infos:
+      "Une petite utilisation des hooks avec React. Dans le cadre de la formation Ibm Académie. Ceci est la version 1.0. D'autres features sont en préparation.",
+    img: "./assets/img/react-apidbmovie.png",
+    link: "https://pierreolivierb-apidbmovie.netlify.app/",
+  },
+  {
+    id: 5,
     title: "API",
     date: "Avril 2022",
     languages: ["Php", "Json"],

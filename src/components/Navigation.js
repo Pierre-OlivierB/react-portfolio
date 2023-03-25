@@ -30,10 +30,18 @@ const Navigation = () => {
               to="/project-3"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>Template Modification</li>
+              <li>
+                <i>New </i>Lecteur Audio
+              </li>
             </NavLink>
             <NavLink
               to="/project-4"
+              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+            >
+              <li>React - API MovieDB</li>
+            </NavLink>
+            <NavLink
+              to="/project-5"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>API</li>

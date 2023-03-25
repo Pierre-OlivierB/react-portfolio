@@ -78,7 +78,7 @@ const Contact = () => {
             <p>Credits : Pierre-Olivier B. - 2023</p>
           </div>
         </div>
-        <Buttons left={"/project-4"} />
+        <Buttons left={"/project-5"} />
       </motion.div>
     </main>
   );

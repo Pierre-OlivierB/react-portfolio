@@ -5,18 +5,18 @@ import Mouse from "../components/Mouse";
 import Navigation from "../components/Navigation";
 import Project from "../components/Project";
 
-const Project4 = () => {
+const Project5 = () => {
   return (
     <main>
       <Mouse />
       <div className="project">
         <Navigation />
         <Logo />
-        <Project projectNumber={3} />
-        <Buttons left={"/project-3"} right={"/project-5"} />
+        <Project projectNumber={4} />
+        <Buttons left={"/project-4"} right={"/contact"} />
       </div>
     </main>
   );
 };
 
-export default Project4;
+export default Project5;
