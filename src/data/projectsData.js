@@ -31,7 +31,7 @@ export const projectsData = [
   {
     id: 4,
     title: "API MovieDb with React",
-    date: "Janvier 2023",
+    date: "Mars 2023",
     languages: ["React", "Json"],
     infos:
       "Une petite utilisation des hooks avec React. Dans le cadre de la formation Ibm Académie. Ceci est la version 1.0. D'autres features sont en préparation.",

@@ -890,6 +890,13 @@ main {
   transition: 0.5s ease;
   transform: translateY(200px);
 }
+@media screen and (max-width: 500px) {
+  .project .project-main .img-content .img-container span {
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 0;
+  }
+}
 .project .project-main .img-content .img-container span h3 {
   padding-bottom: 10px;
   color: rgb(2, 121, 148);

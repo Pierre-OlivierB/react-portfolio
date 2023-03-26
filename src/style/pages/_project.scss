@@ -225,6 +225,12 @@
           transition: 0.5s ease;
           transform: translateY(200px);
 
+          @media screen and (max-width: 500px){
+            font-size: 16px;
+            line-height: 20px;
+            bottom:0;
+          }
+
           h3 {
             padding-bottom: 10px;
             color: rgb(2, 121, 148);
