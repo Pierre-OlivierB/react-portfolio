@@ -25,7 +25,7 @@ const Home = () => {
     },
   };
   return (
-    <div>
+    <>
       <Mouse />
       <motion.div
         className="home"
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <Buttons right={"/project-1"} />
       </motion.div>
-    </div>
+    </>
   );
 };
 

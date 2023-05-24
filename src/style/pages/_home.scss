@@ -1,7 +1,8 @@
 .home {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   position: absolute;
+  top: 10vh;
 
   &:after {
     content: '';

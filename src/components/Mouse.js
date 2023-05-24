@@ -6,7 +6,7 @@ const Mouse = () => {
     // console.log(cursor);
     window.addEventListener("mousemove", (e) => {
       //   console.log(e);
-      cursor.style.top = e.y + "px";
+      cursor.style.top = e.y - 50 + "px";
       cursor.style.left = e.x + "px";
     });
 

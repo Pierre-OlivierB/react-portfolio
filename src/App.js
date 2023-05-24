@@ -10,7 +10,6 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -30,7 +29,6 @@ const App = () => {
           </Routes>
         </AnimatePresence>
       </BrowserRouter>
-      <Footer />
     </>
   );
 };

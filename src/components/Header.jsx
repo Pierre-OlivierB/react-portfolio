@@ -1,9 +1,12 @@
 
 function Header() {
     return (
-        <h1>
-            Header
-        </h1>
+        <header>
+           <h2>
+            
+        </h2> 
+        </header>
+        
     );
 }
 

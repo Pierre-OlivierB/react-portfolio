@@ -1,9 +1,12 @@
 
 function Footer() {
     return (
-        <h2>
-            Footer
+        <footer>
+             <h2>
+
         </h2>
+        </footer>
+       
     );
 }
 

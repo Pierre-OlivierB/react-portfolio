@@ -33,6 +33,7 @@ $red: hsl(0, 98%, 67%);
 }
 html { 
   scroll-behavior: unset;
+  height: 100vh;
 }
 a,
 a:visited {
@@ -40,14 +41,15 @@ a:visited {
 }
 body {
   font-family: $font-1;
-  height: 100vh;
+  height: 95vh;
+  padding: 5px;
   background-color: $color-1;
   color: $black;
   overflow: hidden;
 
   @media screen and (max-width: 430px){
     position: relative;
-    max-width: 100vw;
+    max-width: 95vw;
     overflow-y: initial;
   }
 }
@@ -68,4 +70,22 @@ main {
     letter-spacing: 1px;
     color: $color-2;
   }
+}
+#root{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  height:50px;
+}footer{
+  height: 10vh;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
