@@ -177,7 +177,7 @@ header {
 
 .home {
   height: 80vh;
-  width: 100vw;
+  width: 95vw;
   position: absolute;
   top: 10vh;
 }
@@ -404,19 +404,19 @@ header {
   right: 1rem;
 }
 .contact .form-container {
-  margin: 7% 0 0 24%;
+  margin: 20% 0 0 30%;
   max-width: 50%;
   position: relative;
   max-width: 300px;
 }
 @media screen and (max-width: 740px) {
   .contact .form-container {
-    margin: 2rem 0 0 30%;
+    margin: 30% 0 0 30%;
   }
 }
 @media screen and (max-width: 440px) {
   .contact .form-container {
-    margin-left: 2rem;
+    margin-left: 15%;
   }
 }
 .contact .form-container h2 {
@@ -657,8 +657,8 @@ header {
 
 .project {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 80vh;
+  width: 90vw;
 }
 .project:after {
   content: "";
@@ -740,7 +740,7 @@ header {
   grid-template-columns: 33% 67%;
   position: relative;
   text-align: right;
-  top: 50px;
+  top: 80px;
 }
 @media screen and (max-width: 810px) {
   .project .project-main {
@@ -749,8 +749,8 @@ header {
 }
 @media screen and (max-width: 750px) {
   .project .project-main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr;
+    grid-template-columns: 90%;
+    grid-template-rows: 100px 90%;
   }
 }
 @media screen and (max-height: 600px) {
@@ -864,22 +864,24 @@ header {
   overflow: hidden;
   position: relative;
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
   .project .project-main .img-content .img-container {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 380px;
+    transform: translateX(40px);
   }
 }
 @media screen and (max-width: 540px) {
   .project .project-main .img-content .img-container {
     height: 200px;
-    width: 370px;
+    width: 300px;
+    transform: translateX(20px);
   }
 }
 @media screen and (max-width: 400px) {
   .project .project-main .img-content .img-container {
     height: 150px;
-    width: 280px;
+    width: 220px;
   }
 }
 .project .project-main .img-content .img-container:hover span,
@@ -978,6 +980,12 @@ header {
   .project .random-circle {
     display: none;
   }
+}
+.project .scroll-bottom {
+  transform: translateY(10%);
+}
+.project .scroll-bottom a {
+  transform: translate(-50%, -200%);
 }
 
 .notFound {
